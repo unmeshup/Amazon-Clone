@@ -16,9 +16,9 @@ function Home() {
         <Product
             id="1235"
             title="Samsung Galaxy M12 (Blue,4GB RAM, 64GB Storage) 6000 mAh with 8nm Processor | True 48 MP Quad Camera | 90Hz Refresh Rate"
-            price={9499.0}
+            price={19499.0}
             image="https://m.media-amazon.com/images/I/71r69Y7BSeL._SL1500_.jpg"
-            rating={4}
+            rating={3}
           />
            <Product
             id="5646"
@@ -31,12 +31,11 @@ function Home() {
 
         <div className="home__row">
         <Product
-            id="4569"
-            title="
-            DecorDen Zigzag Floating Wall Mount Wooden Display Storage Organizer Shelf for Wall Decoration (Brown)"
-            price={600.0}
-            image="https://m.media-amazon.com/images/I/51Ey7WCBV8S._SL1400_.jpg"
-            rating={4}
+            id="12321341"
+            title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
+            price={2811.96}
+            rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
           />
           <Product
             id="23445930"
@@ -48,7 +47,7 @@ function Home() {
           <Product
             id="3254354345"
             title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
-            price={598.99}
+            price={39598.99}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
           />
@@ -58,7 +57,7 @@ function Home() {
           <Product
             id="90829332"
             title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
-            price={1094.98}
+            price={91094.98}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
           />
