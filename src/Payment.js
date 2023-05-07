@@ -5,8 +5,6 @@ import CheckoutProduct from './CheckoutProduct';
 import { Link } from "react-router-dom";
 import Subtotal from './Subtotal';
 
-
-
 function Payment() {
     const [{ basket, user }, dispatch] = useStateValue();
 

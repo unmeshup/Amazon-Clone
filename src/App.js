@@ -8,6 +8,7 @@ import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
 import Payment from "./Payment";
 
+
 function App() {
   const [{}, dispatch] = useStateValue();
 
@@ -38,6 +39,7 @@ function App() {
     <Router>
     <div className="app">
       <Routes>
+     
       <Route exact path='/login' element={
           <React.Fragment>
            <Header />
