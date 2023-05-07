@@ -6,6 +6,7 @@ import React, { useEffect }  from "react";
 import Login from "./Login";
 import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
+import Payment from "./Payment";
 
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -35,29 +36,37 @@ function App() {
 
   return (
     <Router>
+    <div className="app">
       <Routes>
       <Route exact path='/login' element={
           <React.Fragment>
            <Header />
             <Login />
-          
           </React.Fragment>
         }/>
         
-        <Route exact path='/' element={
-          <React.Fragment>
-            <Header />
-            <Home />
-            
-          </React.Fragment>
-        }/>
         <Route exact path='/checkout'  element={
           <React.Fragment>
             <Header />
             <Checkout />
           </React.Fragment>
         } />
+
+        <Route exact path='/payment'  element={
+          <React.Fragment>
+            <Header />
+            <Payment />
+          </React.Fragment>
+        } />
+        
+        <Route exact path='/' element={
+          <React.Fragment>
+            <Header />
+            <Home />
+          </React.Fragment>
+        }/>
       </Routes>
+      </div>
     </Router>
   );
 }
