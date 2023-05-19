@@ -1,12 +1,19 @@
 Project Link - https://clone-app-d9564.web.app/
 
 Tech We Used-:
+
 *ReactJs
+
 *Firebase Hosting
+
 *Firebase Auth
+
 *Firebase Storage
+
 *React-Router-Dom
+
 *Material-UI
+
 *React-Currency-Tool
 
 # Getting Started with Create React App
